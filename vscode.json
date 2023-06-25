@@ -1,0 +1,251 @@
+{
+    "notebook.cellToolbarLocation": {
+        "default": "left",
+        "jupyter-notebook": "left"
+    },
+
+    "files.encoding": "utf8",
+
+    "editor.mouseWheelZoom": true,
+    "editor.fontFamily": "'Fira Code','Monaco',Consolas, '黑体'",
+    "scm.inputFontFamily": "'Fira Code'",
+    "editor.inlayHints.fontFamily": "'Fira Code','Monaco',Consolas",
+    "editor.codeLensFontFamily": "Monaco, Consolas, '黑体'",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 1.6,
+    "editor.fontSize": 15,
+    "editor.fontWeight": "normal",
+    "editor.autoClosingBrackets": "always",
+    "editor.defaultFormatter": "aaron-bond.better-comments",
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.indentSize": "tabSize",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+        "source.fixAll": true,
+        "editor.formatOnSave": true
+    },
+
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "diffEditor.codeLens": true,
+    "editor.rulers": [120],
+    "editor.unicodeHighlight.allowedCharacters": {
+        "对": true
+    },
+    "editor.unicodeHighlight.includeComments": false,
+    "editor.wrappingStrategy": "advanced",
+    "editor.codeLensFontSize": 1,
+    "editor.fontVariations": true,
+    "editor.lineNumbers": "relative",
+
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+        "*.txt": "plaintext"
+    },
+
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontFamily": "FiraCode NF",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.bellDuration": 80,
+
+
+    "window.autoDetectColorScheme": true, 
+    "window.newWindowDimensions": "offset",
+
+
+    "workbench.editor.autoLockGroups": {
+        "default": true,
+        "imagePreview.previewEditor": true,
+        "mainThreadWebview-markdown.preview": true
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.panel.defaultLocation": "bottom",
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.jar": "default",
+        "*.png": "default",
+        "*.pdf": "default"
+    },
+    "workbench.colorCustomizations": {
+        "errorLens.errorForeground": "#ff0000",
+        "errorLens.warningForeground": "#fa973a",
+        "errorLens.infoBackground": "#00b7e4",
+        "errorLens.hintForeground": "#2faf64"
+    },
+
+
+    "git.ignoreWindowsGit27Warning": true,
+
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.onTaskErrors": "showErrors",
+    "debug.console.fontFamily": "'Fira Code','Monaco','黑体'",
+    "debug.terminal.clearBeforeReusing": true,
+
+
+    "python.analysis.completeFunctionParens": true,
+    "python.languageServer": "Jedi",
+    "python.analysis.autoImportCompletions": true,
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.wordBasedSuggestions": false,
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ]
+    },
+
+
+    "explorer.confirmDelete": false,
+    "better-comments.highlightPlainText": true,
+
+
+
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.tabSize": 4
+    },
+
+
+    "markdown.preview.breaks": true,
+    "markdown.preview.typographer": true,
+    "markdown.preview.fontFamily": "'YaHei Monaco Hybird','黑体',-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+
+
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.runInTerminal": true,
+
+
+    "gitlens.defaultDateFormat": "YYYY-MM-DD hh:mm",
+    "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
+
+
+    "clangd.checkUpdates": false,
+    "clangd.arguments": [
+        "--background-index",
+        "--compile-commands-dir=${workspaceFolder}/build", 
+        "-j=12",
+        "--query-driver=D:/LLVM/bin/clang++.exe",
+        "--clang-tidy",
+        "--clang-tidy-checks=performance-*,bugprone-*",
+        "--all-scopes-completion",
+        "--completion-style=detailed",
+        "--header-insertion=iwyu",
+        "--pch-storage=disk",
+        "-enable-config"
+    ],
+
+
+    "clang-format.executable": "D:/LLVM/bin/clang-format.exe",
+    "clang-format.style": "google",
+    "clang-format.language.c.enable": true,
+    "clang-format.language.cpp.enable": true,
+    "[c]":{
+        "editor.wordBasedSuggestions": false,
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.defaultFormatter":"llvm-vs-code-extensions.vscode-clangd",
+        "editor.tabSize": 4
+    },
+    "[cpp]": {
+        "editor.wordBasedSuggestions": false,
+        "editor.suggest.insertMode": "replace",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+        "editor.tabSize": 4
+    },
+    
+
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+
+    "security.workspace.trust.untrustedFiles": "newWindow",
+
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "extensions.ignoreRecommendations": true,
+
+    "window.doubleClickIconToClose": true,
+    "window.commandCenter": true,
+
+    "clangd.detectExtensionConflicts": false,
+
+    "gitlens.defaultDateLocale": null,
+    "gitlens.defaultTimeFormat": null,
+
+
+    "[json]": {
+        "editor.tabSize": 4,
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "gitlens.codeLens.scopes": [
+            "document"
+        ]
+    },
+    "scm.inputFontSize": 14,
+    "screencastMode.fontSize": 60,
+    "editor.scrollbar.verticalScrollbarSize": 10,
+    "workbench.productIconTheme": "macos-modern",
+    "tabnine.experimentalAutoImports": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "oneDarkPro.italic": false,
+    "oneDarkPro.vivid": true,
+    "window.zoomLevel": 0.3,
+    "python.formatting.provider": "none",
+    "editor.maxTokenizationLineLength": 114514,
+    "markdown.preview.fontSize": 15,
+    "errorLens.fontStyleItalic": true,
+    "prettier.bracketSameLine": true,
+    "prettier.useTabs": true,
+    "editor.tabSize": 8
+}
