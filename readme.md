@@ -1,3 +1,3 @@
 # config
 
-- 记录一些配置
+- some configuration I use
