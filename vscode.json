@@ -7,7 +7,7 @@
     "files.encoding": "utf8",
 
     "editor.mouseWheelZoom": true,
-    "editor.fontFamily": "'Fira Code','Monaco',Consolas, '黑体'",
+    "editor.fontFamily": "'Fira Code', Consolas, '黑体'",
     "scm.inputFontFamily": "'Fira Code'",
     "editor.inlayHints.fontFamily": "'Fira Code','Monaco',Consolas",
     "editor.codeLensFontFamily": "Monaco, Consolas, '黑体'",
@@ -234,18 +234,15 @@
     "scm.inputFontSize": 14,
     "screencastMode.fontSize": 60,
     "editor.scrollbar.verticalScrollbarSize": 10,
-    "workbench.productIconTheme": "macos-modern",
     "tabnine.experimentalAutoImports": true,
     "editor.unicodeHighlight.invisibleCharacters": false,
     "workbench.colorTheme": "One Dark Pro Darker",
     "oneDarkPro.italic": false,
     "oneDarkPro.vivid": true,
-    "window.zoomLevel": 0.3,
     "python.formatting.provider": "none",
     "editor.maxTokenizationLineLength": 114514,
     "markdown.preview.fontSize": 15,
     "errorLens.fontStyleItalic": true,
     "prettier.bracketSameLine": true,
     "prettier.useTabs": true,
-    "editor.tabSize": 8
 }
