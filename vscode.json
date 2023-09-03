@@ -221,16 +221,6 @@
     "gitlens.defaultTimeFormat": null,
 
 
-    "[json]": {
-        "editor.tabSize": 4,
-        "editor.quickSuggestions": {
-            "strings": true
-        },
-        "editor.suggest.insertMode": "replace",
-        "gitlens.codeLens.scopes": [
-            "document"
-        ]
-    },
     "scm.inputFontSize": 14,
     "screencastMode.fontSize": 60,
     "editor.scrollbar.verticalScrollbarSize": 10,
