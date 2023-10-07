@@ -3,3 +3,4 @@
 - some configuration I use
   - vscode
   - tmux
+  - git

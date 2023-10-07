@@ -102,26 +102,20 @@
     "explorer.confirmDelete": false,
     "better-comments.highlightPlainText": true,
 
-
-
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features",
         "editor.tabSize": 4
     },
 
-
     "markdown.preview.breaks": true,
     "markdown.preview.typographer": true,
     "markdown.preview.fontFamily": "'YaHei Monaco Hybird','黑体',-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
 
-
     "code-runner.saveAllFilesBeforeRun": true,
     "code-runner.runInTerminal": true,
 
-
     "gitlens.defaultDateFormat": "YYYY-MM-DD hh:mm",
     "gitlens.defaultDateShortFormat": "YYYY-MM-DD",
-
 
     "clangd.checkUpdates": false,
     "clangd.arguments": [
@@ -208,7 +202,6 @@
     ],
 
     "security.workspace.trust.untrustedFiles": "newWindow",
-
     "extensions.autoUpdate": "onlyEnabledExtensions",
     "extensions.ignoreRecommendations": true,
 
@@ -219,7 +212,6 @@
 
     "gitlens.defaultDateLocale": null,
     "gitlens.defaultTimeFormat": null,
-
 
     "scm.inputFontSize": 14,
     "screencastMode.fontSize": 60,
